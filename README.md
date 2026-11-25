@@ -3,11 +3,23 @@
 Sports analytics. Notre Dame MSBA. I build models, dashboards and data tools for basketball, football,
 baseball and soccer, using R, Python and Tableau.
 
+## Live sites
+
+| Site | URL |
+|---|---|
+| NBA Sub Patterns | [ctravasos.github.io/nba-rotations](https://ctravasos.github.io/nba-rotations/) |
+| NFL Run/Pass Tendencies | [ctravasos.github.io/nfl-run-pass](https://ctravasos.github.io/nfl-run-pass/) |
+
 ## Featured
 
 **[NBA Sub Patterns](https://github.com/ctravasos/nba-rotations)** · [live site](https://ctravasos.github.io/nba-rotations/)
 When every NBA player checks in and out, by quarter, TV timeout and phase, for every team over six
 seasons. Python pipeline over ESPN play-by-play, static site rebuilt daily by GitHub Actions.
+
+**[NFL Run/Pass Tendencies](https://github.com/ctravasos/nfl-run-pass)** · [live site](https://ctravasos.github.io/nfl-run-pass/)
+How often any offense runs or passes, against how opponents attack any defense, by down, distance, field
+position, score and drive context, compared with the five-season average. Python pipeline over nflverse play-by-play,
+charts and filters computed in the browser, rebuilt daily.
 
 **[Predicting the 2024 College Football Playoff](https://github.com/ctravasos/CFP-Prediction-Model)**
 XGBoost model on 2024 play-by-play EPA, win probability and a Gini concentration index, adjusted for
@@ -30,6 +42,7 @@ departments, with Shiny dashboards for exploring it.
 ### Football
 | Project | Summary | Tools |
 |---|---|---|
+| [NFL Run/Pass Tendencies](https://github.com/ctravasos/nfl-run-pass) | Run/pass splits for any offense vs. defense by situation, with custom filters | Python, GitHub Actions |
 | [CFP Prediction Model](https://github.com/ctravasos/CFP-Prediction-Model) | XGBoost bracket predictions for the first 12-team College Football Playoff | R, cfbfastR |
 | [NFL Combine x Snap Count](https://github.com/ctravasos/NFL-Combine-x-Snap-Count) | Do combine results predict career snaps? Random forest, regression and XGBoost/SHAP by position | R |
 | [Raiders Draft Analysis](https://github.com/ctravasos/NFL-Draft-Analysis) | How draft round and position relate to career games played, Raiders picks 2015–2024 | Python, pandas |
